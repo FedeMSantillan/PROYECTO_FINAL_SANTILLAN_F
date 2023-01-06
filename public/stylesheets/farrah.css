@@ -1,0 +1,457 @@
+/* font-family: 'Roboto Slab', serif; */
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+header {
+    background-color: antiquewhite;
+    padding: 16px 0;
+
+}
+
+header h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 35px;
+}
+
+header h5 {
+    font-size: small;
+    font-weight: normal;
+    margin-left: 35px;
+}
+
+nav {
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: darkgray;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+.nav-itemdropdown {
+    color: darkgray;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+
+}
+
+.dropdown-item {
+    color: darkgray;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    text-underline-position: auto;
+}
+
+nav ul li a.activo {
+    background-color: brown;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: darkgray;
+    font-size: 100px;
+    font-weight: 500;
+
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+
+/*inicio HOME*/
+
+.tabla {
+    display: flex;
+    margin-left: 70px;
+    gap: 32px;
+
+}
+
+.fotoprincipal {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px 200px 200px 200px;
+    margin-left: 35px;
+}
+
+.columna ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.columna ul li {
+    flex-grow: 1;
+}
+
+.botonera {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.quiensoy {
+    
+    border-radius: 200px 200px 200px 200px;
+    background-color: red;
+    padding: 25px;
+    transition: all 1s ease;
+
+    
+}
+
+.quiensoy:hover {
+    background-color: rgba(200,200,200,.5);
+    cursor: pointer;
+    transform: scale(1);
+    padding: 35px;
+    
+}
+
+.paraleer {
+    border-radius: 200px 200px 200px 200px;
+    background-color: green;
+    padding: 25px;
+    margin-left: 10px;
+    transition: all 1s ease;
+}
+
+.paraleer:hover {
+    background-color: rgba(200,200,200,.5);
+    cursor: pointer;
+    transform: scale(1);
+    padding: 35px;
+    
+}
+
+.novedades {
+    border-radius: 200px 200px 200px 200px;
+    background-color: blue;
+    padding: 25px;
+    margin-left: 10px;
+    transition: all 1s ease;
+}
+
+.novedades:hover {
+    background-color: rgba(200,200,200,.5);
+    cursor: pointer;
+    transform: scale(1);
+    padding: 35px;
+    
+}
+
+.Descripcion {
+    margin-top: 30px;
+}
+
+
+
+
+/*FIN HOME*/
+
+
+/*inicio QUIEN SOY*/
+
+h4 {
+    color: darkgray;
+    font-size: 500;
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
+    color: darkgrey;
+    font-size: medium;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+/*fin QUIEN SOY*/
+
+footer {
+    
+    left: 0;
+    bottom: 0;
+    background-color: brown;
+    color: antiquewhite;
+    margin-bottom: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.cajaprincipal {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*inicio PARA LEER */
+
+/*todo el codigo que sigue aca en mas esta copiado de un ejercicio y lo fui ajustando
+a mis necesidades, luego de que puse esto me di cuenta que algo hice con el footer que 
+no se ajusta o tapa lo que hay en el "main o body"*/
+
+.container {
+    position: relative;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mains {
+    position: relative;
+    width: 680px;
+    margin: 0 auto;
+}
+
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+    -moz-box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    
+}
+
+.view .mask,
+.view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img {
+    display: block;
+    position: relative;
+}
+
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+}
+
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000;
+}
+
+.view a.info:hover {
+    -webkit-box-shadow: 0 0 5px #000;
+    -moz-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+}
+
+.view-first img {
+    transition: all 0.2s linear;
+}
+
+.view-first .mask {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background-color: rgba(219, 127, 8, 0.7);
+    transition: all 0.4s ease-in-out;
+}
+
+.view-first h2 {
+
+    text-align: center;
+    transform: translateY(-100px);
+
+    filter: alpha(opacity=0);
+    opacity: 0;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.view-first p {
+
+    transform: translateY(100px);
+
+    filter: alpha(opacity=0);
+    opacity: 0;
+
+    transition: all 0.2s linear;
+}
+
+.view-first:hover img {
+
+    transform: scale(1.1, 1.1);
+}
+
+.view-first a.info {
+
+    filter: alpha(opacity=0);
+    opacity: 0;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover .mask {
+
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+
+    filter: alpha(opacity=100);
+    opacity: 1;
+
+    transform: translateY(0px);
+}
+
+.view-first:hover p {
+
+    transition-delay: 0.1s;
+}
+
+.view-first:hover a.info {
+
+    transition-delay: 0.2s;
+}
+
+/*hasta aca arriba es todo css copiado de un archivo del curso y modificado para lo 
+que yo necesitaba*/
+
+/*fin PARA LEER*/
+
+/*inicio CONTACTO*/
+
+
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+
+}
+
+.datos ul li {
+    list-style: none;
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input [type="submit"] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input [type="submit"]:hover {
+    background-color: #2e64a1;
+}
+
+
+
+/*fin CONTACTO*/

@@ -1,0 +1,43 @@
+<main class="holder contacto">
+    <div>
+        <h2>Contacto Rapido</h2>
+        <form action="/contacto" method="post" class="formulario">
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre">
+            </p>
+            <p>
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="apellido">
+            </p>
+            <p>
+                <label for="Email">Email</label>
+                <input type="text" name="email">
+            </p>
+            <p>
+                <label for="telefono">Telefono</label>
+                <input type="text" name="tel">
+            </p>
+            <p>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" />
+            </p>
+        </form>
+        <p>{{message}}</p>
+    </div>
+    <div class="datos">
+        <h2>Otras vias de comunicacion</h2>
+        <p>Tambien podes contactarme usando los siguientes medios:</p>
+        <ul>
+            <li>Telefono: +61 0 456 789 654</li>
+            <li>Email: info@fedesantillan.com</li>
+            <li><a href="facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+
+    </div>
+</main>
